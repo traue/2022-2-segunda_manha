@@ -16,7 +16,9 @@ Repositório da turma de Segunda-feira Diurno - Estrutura de Dados
 
 Essa disciplina pode ser inteiramente desenvolvida por vocês pelo site "repl.it". Pode-se utilizar qualquer conta (institucional ou não) aqui.
 
-Entretanto, quem quiser utilizar a própria máquina para desenvolvimento, juntos e em aula, criamos o passo a passo do processo de prepação do ambiente de desenvolvimento (C e Java), disponível [NESTE LINK]()
+Entretanto, quem quiser utilizar a própria máquina para desenvolvimento, juntos e em aula, criamos o passo a passo do processo de prepação do ambiente de desenvolvimento (C e Java), disponível [NESTE LINK](https://docs.google.com/document/d/1zItGoAaaEbPE9kmIAHKonHU5L3FKLieJldqlm2n0mMI/edit?usp=sharing)
+
+É preciso utilizar o e-mail institucional apra acessar o documento acima.
 
 ## Critérios de Avaliação
 
