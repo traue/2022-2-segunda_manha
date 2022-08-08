@@ -6,6 +6,8 @@ Repositório da turma de Segunda-feira Diurno - Estrutura de Dados
 
 **E-mail do professor:** thiago.traue@uni9.pro.br
 
+**Link do Classroom da turma:** EM BREVE
+
 ## Atividades
 
 - Essa disciplina ainda não demanda atividades
@@ -22,6 +24,8 @@ Repositório da turma de Segunda-feira Diurno - Estrutura de Dados
 - Faltas não são contabilizadas pelo professor
 
 ## Links Importantes
+
+- Essa sessão será atuaizada durante o semestre
 
 ## Referências Bibliográficas
 
