@@ -37,7 +37,7 @@ Essa disciplina essencialmente será utilizada para apresentar as princiapis est
 
 Serão apresentados, também, os principais métodos que envolvem a manipulação dessas estruturas, como busca, inserção, remoção, ordenação etc.
 
-Para isso é muito importante conehcermos os principais mecanismos de desenvolvimento das linguagens utilizadas (C e Java), como ponteiros, pasagem por valor e por referência, tipos de dados, estrutura de um programa, lógica de programação etc.
+Para isso é muito importante conhecermos os principais mecanismos de desenvolvimento das linguagens utilizadas (C e Java), como ponteiros, pasagem por valor e por referência, tipos de dados, estrutura de um programa, lógica de programação etc.
 
 ## Links Importantes
 
