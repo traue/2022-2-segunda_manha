@@ -12,7 +12,7 @@ Repositório da turma de Segunda-feira Diurno - Estrutura de Dados
 
 - Essa disciplina ainda não demanda atividades
 
-## Preparação do ambiente de desenvolvimentl
+## Preparação do ambiente de desenvolvimento
 
 Essa disciplina pode ser inteiramente desenvolvida por vocês pelo site "repl.it". Pode-se utilizar qualquer conta (institucional ou não) aqui.
 
