@@ -12,6 +12,12 @@ Repositório da turma de Segunda-feira Diurno - Estrutura de Dados
 
 - Essa disciplina ainda não demanda atividades
 
+## Preparação do ambiente de desenvolvimentl
+
+Essa disciplina pode ser inteiramente desenvolvida por vocês pelo site "repl.it". Pode-se utilizar qualquer conta (institucional ou não) aqui.
+
+Entretanto, quem quiser utilizar a própria máquina para desenvolvimento, juntos e em aula, criamos o passo a passo do processo de prepação do ambiente de desenvolvimento (C e Java), disponível [NESTE LINK]()
+
 ## Critérios de Avaliação
 
 - A nota é calculada única e exclusivamnte com as atividades durante o semestre
@@ -22,6 +28,14 @@ Repositório da turma de Segunda-feira Diurno - Estrutura de Dados
 - A média final do professor é calculada simplesmente pela média de todas as atividades
 - Haverá ao menos uma prova durante o semestre (previamente agendada)
 - Faltas não são contabilizadas pelo professor
+
+## Ementa basica da disciplina
+
+Essa disciplina essencialmente será utilizada para apresentar as princiapis estruturas de dados utilizadas em todas as linguagens de programação, ou seja, conhecimentos sobre Vetores e Matrizes, Filas, Pilhas, Listas, Árvores, Mapas etc.
+
+Serão apresentados, também, os principais métodos que envolvem a manipulação dessas estruturas, como busca, inserção, remoção, ordenação etc.
+
+Para isso é muito importante conehcermos os principais mecanismos de desenvolvimento das linguagens utilizadas (C e Java), como ponteiros, pasagem por valor e por referência, tipos de dados, estrutura de um programa, lógica de programação etc.
 
 ## Links Importantes
 
