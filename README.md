@@ -29,12 +29,12 @@ Todas as referências abiaxo podem ser acessadas através da Biblioteca Online (
 
 Lembre-se que é obrigatória a utilização do e-mail institucional (@uni9.edu.br) para acessar os catálogos.
 
-**Da Pearson:**
+Da Pearson:
 
 - [Estrutura de Dados: algoritmos, análise da complexidade e implementações em Java e C/C++](https://plataforma.bvirtual.com.br/Acervo/Publicacao/1995), 1ª Ed., Ascencio A. F. G, Araújo, G. S., 2020
 - [Lógica de Programação e Estrutura de Dados: com aplicações em Java](https://plataforma.bvirtual.com.br/Acervo/Publicacao/447), 2ª Ed., Puga S., Risseti G., 2008
 
-**Da O'Rilley**
+Da O'Rilley
 
 - [Data Structure Using C](https://learning.oreilly.com/library/view/data-structure-using/9788131755662/), Sharma, A. K., 2010
 - [Handbook of Data Structures and Applications](https://learning.oreilly.com/library/view/handbook-of-data/9781351645645/), 2ª Ed., Mehta, D. P., Sahni, S., 2018
