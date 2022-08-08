@@ -36,4 +36,6 @@ Lembre-se que é obrigatória a utilização do e-mail institucional (@uni9.edu.
 
 **Da O'Rilley**
 
-- teste
+- [Data Structure Using C](https://learning.oreilly.com/library/view/data-structure-using/9788131755662/), Sharma, A. K., 2010
+- [Handbook of Data Structures and Applications](https://learning.oreilly.com/library/view/handbook-of-data/9781351645645/), 2ª Ed., Mehta, D. P., Sahni, S., 2018
+- [JavaScript Data Structures and Algorithms: An Introduction to Understanding and Implementing Core Data Structure and Algorithm Fundamentals](https://learning.oreilly.com/library/view/javascript-data-structures/9781484239889/), Bae, S., 2019
