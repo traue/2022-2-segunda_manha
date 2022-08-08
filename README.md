@@ -27,8 +27,13 @@ Repositório da turma de Segunda-feira Diurno - Estrutura de Dados
 
 Todas as referências abiaxo podem ser acessadas através da Biblioteca Online (Central do Aluno) e já estão com o devido link.
 
-Lembre-se que é obrigatória a utilização do e-mail institucional para acessar os catálogos.
+Lembre-se que é obrigatória a utilização do e-mail institucional (@uni9.edu.br) para acessar os catálogos.
 
-- Da Pearson:
- - dsd
+**Da Pearson:**
 
+- [Estrutura de Dados: algoritmos, análise da complexidade e implementações em Java e C/C++](https://plataforma.bvirtual.com.br/Acervo/Publicacao/1995), 1ª Ed., Ascencio A. F. G, Araújo, G. S., 2020
+- [Lógica de Programação e Estrutura de Dados: com aplicações em Java](https://plataforma.bvirtual.com.br/Acervo/Publicacao/447), 2ª Ed., Puga S., Risseti G., 2008
+
+**Da O'Rilley**
+
+- 
