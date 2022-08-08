@@ -24,3 +24,11 @@ Repositório da turma de Segunda-feira Diurno - Estrutura de Dados
 ## Links Importantes
 
 ## Referências Bibliográficas
+
+Todas as referências abiaxo podem ser acessadas através da Biblioteca Online (Central do Aluno) e já estão com o devido link.
+
+Lembre-se que é obrigatória a utilização do e-mail institucional para acessar os catálogos.
+
+- Da Pearson:
+ - dsd
+
