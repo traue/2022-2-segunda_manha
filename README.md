@@ -1,12 +1,10 @@
 # Estrutura de Dados
 
-Repositório da turma de Segunda-feira Diurno - Estrutura de Dados
-
-**Turma:** 5
+**Turma:** 5 - Segundas e quartas - Manhã
 
 **E-mail do professor:** thiago.traue@uni9.pro.br
 
-**Link do Classroom da turma:** EM BREVE
+**Link do Classroom da turma:** [NESTE LINK](https://meet.google.com/grj-cfjo-zeh)
 
 ## Atividades
 
