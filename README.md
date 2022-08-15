@@ -4,7 +4,7 @@
 
 **E-mail do professor:** thiago.traue@uni9.pro.br
 
-**Link do Classroom da turma:** [NESTE LINK](https://meet.google.com/grj-cfjo-zeh)
+**Link do Classroom da turma:** [NESTE LINK](https://classroom.google.com/c/NTM4NDg0NjQ3MjEz?cjc=hcuh4lm)
 
 ## Atividades
 
