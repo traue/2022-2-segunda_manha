@@ -39,7 +39,8 @@ Para isso é muito importante conhecermos os principais mecanismos de desenvolvi
 
 ## Links Importantes
 
-- Essa sessão será atuaizada durante o semestre
+- [OnlineGDB](https://www.onlinegdb.com/online_c_compiler)
+- [Replit](https://replit.com/)
 
 ## Referências Bibliográficas
 
