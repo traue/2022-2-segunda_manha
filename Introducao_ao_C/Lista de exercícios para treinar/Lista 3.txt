@@ -10,10 +10,10 @@
 
 Extra 1: <ainda não corrigido>
 
-Uma transportadora utiliza caminhões que suportam até 10 toneladas de 
-peso, as caixas transportadas tem tamanho fixo e o caminhão comporta 
-no máximo 200 volumes, assim, esta transportadora precisa controlar 
-a quantidade e o peso dos volumes para acomodar nos caminhões.
-Faça um programa que leia n caixas e seu peso, ao final, o programa 
-deve imprimir a quantidade de volumes, o peso total dos volumes e o 
-peso médio dos volumes.
+    Uma transportadora utiliza caminhões que suportam até 10 toneladas de 
+    peso, as caixas transportadas tem tamanho fixo e o caminhão comporta 
+    no máximo 200 volumes, assim, esta transportadora precisa controlar 
+    a quantidade e o peso dos volumes para acomodar nos caminhões.
+    Faça um programa que leia n caixas e seu peso, ao final, o programa 
+    deve imprimir a quantidade de volumes, o peso total dos volumes e o 
+    peso médio dos volumes.
