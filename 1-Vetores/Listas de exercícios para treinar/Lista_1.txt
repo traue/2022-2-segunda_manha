@@ -17,3 +17,5 @@ componentes são os fatoriais dos respectivos componentes de vet.
 
 5. Construa um programa que leia dados para um vetorde 100 elementos inteiros. Imprimir o
 maior e o menor, sem ordenar, o percentual de números pares e a média dos elementos do vetor.
+
+<correção finalizda>
