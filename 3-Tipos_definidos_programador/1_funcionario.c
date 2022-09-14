@@ -34,5 +34,3 @@ int main() {
 
     return 0;
 }
-
-//Paramos aqui.. falta o typedef em diante...
