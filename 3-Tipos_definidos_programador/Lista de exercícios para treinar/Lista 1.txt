@@ -18,7 +18,7 @@ Para realizar o cálculo, utilize a fórmula de distância euclidiana:
 (posições X e Y). Em seguida, declare e leia do teclado dois pontos e exiba a 
 distância entre eles, considere a mesma fórmula do exercício anterior.
 
-4. Cria uma estrutura chamada retângulo. Essa estrutura deverá conter o ponto 
+4. Crie uma estrutura chamada retângulo. Essa estrutura deverá conter o ponto 
 superior esquerdo e o ponto inferior direito do retângulo. Cada ponto é definido
 por uma estrutura Ponto, a qual contém as posições X e Y. Faça um programa que 
 declare e leia uma estrutura retângulo e exiba a área, o comprimento da 
