@@ -17,6 +17,7 @@
 
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
 
 struct ponto {
     int x;
@@ -25,7 +26,7 @@ struct ponto {
 
 int main() {
     struct ponto p;
-    float resultado;
+    float distancia;
 
     printf("Informe o ponto X: ");
     scanf("%d", &p.x);
@@ -33,7 +34,10 @@ int main() {
     printf("Informe o ponto Y: ");
     scanf("%d", &p.y);
 
+    //d = RAIZ((QUADRADO(XB - XA) + QUADRADO(YB + YA)))
+    distancia = sqrt(pow(p.x, 2) + pow(p.y, 2));
+
+    printf("\nA distância do poto de origem (0,0 até (%d, %d) é: %.2f", p.x, p.y, distancia);
 
     return 0;
 }
-
