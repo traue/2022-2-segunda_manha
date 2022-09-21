@@ -32,8 +32,9 @@ Agora, escreva um programa que leia os dados de cinco alunos e os armazena
 nessa estrutura. Em seguida, exiba o nome e as notas do aluno que possui a 
 maior média geral dentre os cinco.
 
-<PARAMOS AQUI>
 
 6. Usando a estrutura retângulo do exercício 4, faça um programa que declare e 
 leia uma estrutura retângulo e um ponto, e informe se esse ponto está ou não
 dentro do retângulo.
+
+<finalizamos>
