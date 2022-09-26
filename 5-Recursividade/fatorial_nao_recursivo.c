@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <time.h>
 
 double fatorial(int n) {
     double fat = 1;
@@ -15,8 +16,13 @@ int main() {
     printf("Informe o valor a se calcular o fatorial: ");
     scanf("%d", &n);
 
+    clock_t begin = clock();
     printf("\n%d! = %E", n, fatorial(n));
+    clock_t end = clock();
 
-    return 0;
+    double tempo_total = (double)(end - begin) / CLOCKS_PER_SEC;
+
+    printf("\nEssa execução demorou: %f", tempo_total);
+
     return 0;
 }
