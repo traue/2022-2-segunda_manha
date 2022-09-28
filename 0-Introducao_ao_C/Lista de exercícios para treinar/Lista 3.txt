@@ -8,7 +8,7 @@
 
 5. Construa um programa em C que leia vários números e informe quantos números entre 100 e 200 foram digitados. Quando o valor 0 (zero) for lido, o algoritmo deverá cessar sua execução.
 
-Extra 1: <ainda não corrigido>
+Extra 1:
 
     Uma transportadora utiliza caminhões que suportam até 10 toneladas de 
     peso, as caixas transportadas tem tamanho fixo e o caminhão comporta 
