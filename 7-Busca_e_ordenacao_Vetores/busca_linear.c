@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 
-//retorna a posição do valro se encontrar ou -1 caso não encontre
+//retorna a posição do valor se encontrar ou -1 caso não encontre
 int buscaLinear(int v[], int tamanho, int vBuscado) {
     for (int i = 0; i < tamanho; i++) {
         if (v[i] == vBuscado)

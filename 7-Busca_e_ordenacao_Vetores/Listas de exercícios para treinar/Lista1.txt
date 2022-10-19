@@ -13,8 +13,6 @@
        Valor buscado: 6 (passou pelos indice 5 pode parar)
        Posição: -1
 
----ATUALIZADA A PARTIR DAQUI:
-
 2. Crie um programa em C que seja capaz de ler um vetor de tamanho qualquer,
    ordená-lo e, em seguida, solicitar ao usuário um novo valor a ser inserido.
    Este processo de inserção deverá ocorrer no local correto com
@@ -23,3 +21,6 @@
    inserção.
    O programa deve imprimir o vetor orignial, ordenado e o novo vetor com o 
    valor inserido
+
+
+CORRIGIDA
