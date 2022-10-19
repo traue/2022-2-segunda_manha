@@ -1,0 +1,5 @@
+1. Crie um programa em C que faça a leitura de um vetor de interios de
+   tamanho N, realize a ordenação por seleção utilizando um método e, 
+   em seguida, permita o usuário digitar um valor a ser inserido.
+   A inserção deverá ocorrer por função.
+
