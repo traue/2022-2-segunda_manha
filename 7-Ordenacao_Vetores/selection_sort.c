@@ -1,7 +1,5 @@
 /* Este algoritmo utiliza a ordenação por seleção */
 
-
-
 #include <stdio.h>
 
 void imprimirVetor(int v[], int n) {
