@@ -3,7 +3,9 @@
    em seguida, permita o usuário digitar um valor a ser inserido.
    A inserção deverá ocorrer por função.
 
-Corrigido até aqui---
 
 2. Do arquivo (algoritmo) "busca_linear_vetor_ordenado.c" criar um teste de mesa
    pra o "busca_linear_vOrdenado2"
+
+
+CORRIGIDA
