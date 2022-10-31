@@ -1,15 +1,9 @@
-1. Crie um programa em C que seja capaz de ler um valor
-   N e criar um vetor com este tamanho. Em seguida,
-   ler os dados do vetor, ordená-lo e solicitar ao usuário
-   um valor a ser buscado. Verificar em qual posição o valor está.
-   MAS! Você deverá persistir o vetor original e mostrar
-   a posição do valor buscado no vetor original e no vetor ordenado.
-   Use as buscas binária e linear nesse algoritmo.
+1. Crie um programa em C que faça a leitura de um vetor de interios de
+   tamanho N, realize a ordenação por seleção utilizando um método e, 
+   em seguida, permita o usuário digitar um valor a ser inserido.
+   A inserção deverá ocorrer por função.
 
-2. Crei um programa em C que leia um vetor de tamanho N, qualquer
-    e verifique se o vator está ou não ordenado.
-    Peça ao usuário um valor  aser buscado e encontre-o no vetor.
-    Dica: Se o vetor não estiver ordenado, buscar lienarmente.
-    Caso contrário, utilizar a busca binária
+Corrigido até aqui---
 
-    Lembrete: Vetor ordenado é: v[0] <= v[1] <= v[2] ... <= v[n-1]
+2. Do arquivo (algoritmo) "busca_linear_vetor_ordenado.c" criar um teste de mesa
+   pra o "busca_linear_vOrdenado2"
