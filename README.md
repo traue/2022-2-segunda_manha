@@ -15,6 +15,10 @@ Lembre-se que para realziar todas as atividades é necessário utilizar seu e-ma
 - **Atividade 3**: De 19.10 até 16.11
 - **Atividade 4**: De 07.11 até 30.11
 
+## Avaliação Integrada
+
+Atenção: **08/12**
+
 ## Preparação do ambiente de desenvolvimento
 
 Essa disciplina pode ser inteiramente desenvolvida por vocês pelo site "repl.it". Pode-se utilizar qualquer conta (institucional ou não) aqui.
