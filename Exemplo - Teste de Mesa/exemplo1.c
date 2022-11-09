@@ -4,7 +4,7 @@ int funcao_misteriosa(int n) {
     int resultado = 1;
     for (int i = 0; i < n; i++) {
         for (int j = 1; j < 2; j++) {
-            resultado += i * j;
+            resultado += i * j; //resultado = resultado + i * j
         }
     }
     return resultado;
