@@ -8,11 +8,16 @@ struct No {
 
 typedef struct No no;
 int tamanho;
+no *ultimoRetirado;
+
 void inicia();
 int vazia(no *PILHA);
 int menu();
 void opcao(no *PILHA, int opc);
 void libera(no *PILHA);
+void push(no *PILHA);
+no *criaNo();
+no *pop(no *PILHA);
 void mostrarPilha(no *PILHA);
 
 int main() {
@@ -29,6 +34,7 @@ int main() {
         opc = menu();
         opcao(PILHA, opc);
     } while(opc);
+
     return 0;
 }
 
@@ -64,6 +70,19 @@ void opcao(no *PILHA, int opc) {
         case 2:
             mostrarPilha(PILHA);
             break;
+
+        case 3: 
+            push(PILHA);
+            break;
+
+        case 4:
+            ultimoRetirado = pop(PILHA);
+            if (ultimoRetirado != NULL) 
+                printf("\nRetirado: %d\n\n", ultimoRetirado->num);
+            break;
+        
+        default:
+            printf("\nOopção inválida!");
     }
 }
 
@@ -77,6 +96,7 @@ void libera(no *PILHA) {
             atual = proxNo;
         }
     }
+    printf("\nPilha zerada!\n\n");
 }
 
 int vazia(no *PILHA) {
@@ -85,23 +105,68 @@ int vazia(no *PILHA) {
     return 0;
 }
 
+void push(no *PILHA) {
+    no *novoNo = criaNo();
+    if (vazia(PILHA)) {
+        PILHA->prox = novoNo;
+    } else {
+        no *temp = PILHA->prox;
+        while (temp->prox != NULL)
+            temp = temp->prox;
+        
+        temp->prox = novoNo;
+    }
+    tamanho++;
+}
+
+no *criaNo() {
+    no *novoNo = (no *)malloc(sizeof(no));
+    if (!novoNo) {
+        printf("Sem espaço suficiente na memória!");
+        exit(1);
+    }
+    printf("\nValor do novo elemento: ");
+    scanf("%d", &novoNo->num);
+    novoNo->prox = NULL;
+
+    return novoNo;
+}
+
+no *pop(no *PILHA) {
+    if (PILHA->prox == NULL) {
+        printf("\nA PILHA já está vazia!\n\n");
+        return NULL;
+    }
+    
+    no *penultimo = PILHA, *ultimo = PILHA->prox;
+
+    while (ultimo->prox != NULL) {
+        penultimo = ultimo;
+        ultimo = ultimo->prox;
+    }
+
+    penultimo->prox = NULL;
+    tamanho--;
+    return ultimo;
+}
+
 void mostrarPilha(no *PILHA) {
     if (vazia(PILHA)) {
-        printf("A pilha está vazia!\n");
+        printf("\nA pilha está vazia!\n\n");
         return;
     }
 
     no *temp;
     temp = PILHA->prox;
-    printf("PILHA: ");
+    printf("PILHA:");
     while(temp != NULL) {
         printf("%5d", temp->num);
         temp = temp->prox;
     }
-    printf("\n");
+    printf("\n        ");
     for (int i = 0; i < tamanho; i++) 
-        printf(" ^ ");
-    printf("Ordem:");
+        printf("  ^  ");
+    printf("\nOrdem:");
     for (int i = 0; i < tamanho; i++)
         printf("%5d", i + 1);
     printf("\n\n");
