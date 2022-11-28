@@ -1,0 +1,16 @@
+Atividade de recuperação
+
+
+Você deve mostrar e explicar para o professor (compartilhar sua tela no dia em que o professor for avaliar essa atividade, além de responder perguntas) um pequeno programa em C que seja capaz de receber a entrada de uma equação matemática qualquer, em FORMATO RPN (pós-fixa ou notação polonesa) e mostrar ao usuário a conversão dela para o formato convencional (pré-fixa).
+
+Se você conseguir realizar o cálculo, o professor ficará muito feliz....😬
+
+Exemplo:
+
+Entrada: 2 3 * 8 / 5 +
+Saída:  (((2 * 3) / 8) + 5)
+
+
+A avaliação será individual. O professor realizará perguntas para cada um sobre seu próprio código. As perguntas serão sobre quaisquer conceitos da disciplina. 
+
+Data que iniciaremos: 30/11
