@@ -10,6 +10,12 @@ Exemplo:
 Entrada: 2 3 * 8 / 5 +
 Saída:  (((2 * 3) / 8) + 5)
 
+Entrada: 666 1 9 + /
+Saída: ((1 + 9) / 666)
+
+Entrada: 3 1 + /
+Saída: Entrada inválida
+
 
 A avaliação será individual. O professor realizará perguntas para cada um sobre seu próprio código. As perguntas serão sobre quaisquer conceitos da disciplina. 
 
