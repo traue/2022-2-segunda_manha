@@ -14,11 +14,15 @@ void inicializa(no *LISTA);
 int menu();
 void opcao(no *LISTA, int opc);
 int estaVazia(no *LISTA);
+void limparLista(no *LISTA);
 void adicionarNoInicio(no *LISTA);
 no *criaNo();
 void adicionarAoFinal(no *LISTA);
 void adicionarEmPosicao(no *LISTA);
 void mostrarLista(no *LISTA);
+no *removerDoInicio(no *LISTA);
+no *removerDoFinal(no *LISTA);
+no *removerEmPosicao(no *LISTA);
 
 int main() {
 
@@ -64,10 +68,14 @@ int menu() {
 }
 
 void opcao(no *LISTA, int opc) {
+    no *noRemovido;
     switch (opc) {
-        case 0: //sair
+        case 0:
+            limparLista(LISTA);
             break;  
-        case 1: //limpar
+        case 1:
+            limparLista(LISTA);
+            inicializa(LISTA);
             break;
         case 2:
             mostrarLista(LISTA);
@@ -81,14 +89,23 @@ void opcao(no *LISTA, int opc) {
         case 5:
             adicionarEmPosicao(LISTA);
             break; 
-        case 6: //retira do início
+        case 6:
+            noRemovido = removerDoInicio(LISTA);
+            if (noRemovido != NULL) 
+                printf("\n\n >> removido nó com valor: %d\n", noRemovido->valor);
             break; 
-        case 7: //retira do final
+        case 7:
+            noRemovido = removerDoFinal(LISTA);
+            if (noRemovido != NULL) 
+                printf("\n\n >> removido nó com valor: %d\n", noRemovido->valor);
             break; 
-        case 8: //retira posicão n
+        case 8:
+        noRemovido = removerEmPosicao(LISTA);
+            if (noRemovido != NULL) 
+                printf("\n\n >> removido nó com valor: %d\n", noRemovido->valor);
             break; 
         default:
-            printf("\n\nOpção inválida!");
+            printf("\n\nOpção inválida!\n");
             break;
     }
 }
@@ -99,9 +116,23 @@ int estaVazia(no *LISTA) {
     return(LISTA->prox == NULL);
 }
 
+void limparLista(no *LISTA) {
+    if (!estaVazia(LISTA)) {
+        no *atual, *proxNo;
+        atual = LISTA->prox;
+        while(atual != NULL) {
+            proxNo = atual->prox;
+            free(atual);
+            atual = proxNo;
+        }
+    }
+    printf("\n >> Lista zerada!\n\n");
+}
+
+
 void mostrarLista(no *LISTA) {
     if (estaVazia(LISTA)) {
-        printf("A lista está vazia! Nada a exibir!");
+        printf("\n\n >> A lista está vazia! Nada a exibir!\n");
         return;
     }
     no *temp;
@@ -120,6 +151,8 @@ void mostrarLista(no *LISTA) {
 
     for (int cont = 0; cont < tamanho; cont++) 
         printf("%5d", cont + 1);  
+
+    printf("\n >> Tamanho da lista: %d\n", tamanho);
 
     printf("\n\n"); 
 }
@@ -148,6 +181,7 @@ void adicionarAoFinal(no *LISTA) {
     novo->prox = NULL;
     if (estaVazia(LISTA)) {
         LISTA->prox = novo;
+        tamanho++;
         return;
     }
     no *temp = LISTA->prox;
@@ -164,7 +198,7 @@ void adicionarEmPosicao(no *LISTA) {
         return;
     }
     int posicao;
-    printf("\n >> Em qual posição [0 - %d]: ", tamanho);
+    printf("\n >> Em qual posição [1 - %d]: ", tamanho);
     scanf("%d", &posicao);
     if (posicao > 0 && posicao <= tamanho) {
         if (posicao == 1) {
@@ -183,6 +217,63 @@ void adicionarEmPosicao(no *LISTA) {
         tamanho++;
         return;
     }
-    printf("\n\n >> Posição de inserção inválida!");
+    printf("\n\n >> Posição de inserção inválida!\n");
     printf("\n >> A lista possui apenas %d elemento(s)\n", tamanho);
+}
+
+no *removerDoInicio(no *LISTA) {
+    if (estaVazia(LISTA)) {
+        printf("\n\n >> A lista está vazia! Nada a remover!");
+        return NULL;
+    }
+    no *primeiroNo = LISTA->prox;
+    LISTA->prox = primeiroNo->prox;
+    tamanho--;
+    return primeiroNo;
+}
+
+no *removerDoFinal(no *LISTA) {
+    if (estaVazia(LISTA)) {
+        printf("\n\n >> A lista está vazia! Nada a remover!");
+        return NULL;
+    }
+    no *ultimo = LISTA->prox;
+    no *penultimo = LISTA;
+
+    while (ultimo->prox != NULL) {
+        penultimo = ultimo;
+        ultimo = ultimo->prox;
+    }
+    penultimo->prox = NULL;
+    tamanho--;
+    return ultimo;
+}
+
+no *removerEmPosicao(no *LISTA) {
+    if (estaVazia(LISTA)) {
+        printf("\n\n >> A lista está vazia! Nada a remover!\n");
+        return NULL;
+    }
+    int posicao;
+    printf("\n\n >> Qual posição deseja remover [1 - %d]", tamanho);
+    scanf("%d", &posicao);
+
+    if (posicao > 0 && posicao <= tamanho) {
+        if (posicao == 1)
+            return removerDoInicio(LISTA);
+        
+        no *atual = LISTA->prox;
+        no *anterior = LISTA;
+
+        for (int contador = 1; contador < posicao; contador++) {
+            anterior = atual;
+            atual = atual->prox;
+        }
+
+        anterior->prox = atual->prox;
+        tamanho--;
+        return atual;
+    }
+    printf("\n\n >> Posição inválida!");
+    return NULL;
 }
