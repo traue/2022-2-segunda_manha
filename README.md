@@ -13,7 +13,7 @@ Lembre-se que para realziar todas as atividades é necessário utilizar seu e-ma
 - **Atividade 1**: De 12.09 até 10.10 - Encerrada
 - **Atividade 2**: De 17.10 até 07.11 - Encerrada
 - **Atividade 3**: De 19.10 até 16.11 - Encerrada
-- **Atividade 4**: De 07.11 até 30.11
+- **Atividade 4**: De 07.11 até 30.11 - Encerrada
 - **Atividade 5**: De 16.11 até 07.12
 
 ## Avaliação Integrada
