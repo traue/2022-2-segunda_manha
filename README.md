@@ -8,7 +8,7 @@
 
 ## Atividades
 
-Lembre-se que para realziar todas as atividades é necessário utilizar seu e-mail institucional. Todas estão dispomíveis através do Classroom, cujo link pode ser encontrado na parte de cime deste repositório. Todas as atividades fecham às **11:30** do dia do encerramento.
+Lembre-se que para realziar todas as atividades é necessário utilizar seu e-mail institucional. Todas estão dispomíveis através do Classroom, cujo link pode ser encontrado na parte de cime deste repositório. Todas as atividades fecham às **09:05** do dia do encerramento.
 
 - **Atividade 1**: De 12.09 até 10.10 - Encerrada
 - **Atividade 2**: De 17.10 até 07.11 - Encerrada
