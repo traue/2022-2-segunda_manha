@@ -1,24 +1,8 @@
-# Estrutura de Dados
+# Estrutura de Dados - ENCERRADA
 
 **Turma:** 5 - Segundas e quartas - Manhã
 
-**E-mail do professor:** thiago.traue@uni9.pro.br
-
 **Link do Classroom da turma:** [NESTE LINK](https://classroom.google.com/c/NTM4NDg0NjQ3MjEz?cjc=hcuh4lm)
-
-## Atividades
-
-Lembre-se que para realziar todas as atividades é necessário utilizar seu e-mail institucional. Todas estão dispomíveis através do Classroom, cujo link pode ser encontrado na parte de cime deste repositório. Todas as atividades fecham às **09:05** do dia do encerramento.
-
-- **Atividade 1**: De 12.09 até 10.10 - Encerrada
-- **Atividade 2**: De 17.10 até 07.11 - Encerrada
-- **Atividade 3**: De 19.10 até 16.11 - Encerrada
-- **Atividade 4**: De 07.11 até 30.11 - Encerrada
-- **Atividade 5**: De 16.11 até 07.12 - Encerrada
-
-## Avaliação Integrada
-
-Atenção: **08/12**
 
 ## Preparação do ambiente de desenvolvimento
 
@@ -27,17 +11,6 @@ Essa disciplina pode ser inteiramente desenvolvida por vocês pelo site "repl.it
 Entretanto, quem quiser utilizar a própria máquina para desenvolvimento, juntos e em aula, criamos o passo a passo do processo de prepação do ambiente de desenvolvimento (C e Java), disponível [NESTE LINK](https://docs.google.com/document/d/1zItGoAaaEbPE9kmIAHKonHU5L3FKLieJldqlm2n0mMI/edit?usp=sharing)
 
 É preciso utilizar o e-mail institucional apra acessar o documento acima.
-
-## Critérios de Avaliação
-
-- A nota é calculada única e exclusivamnte com as atividades durante o semestre
-- As atividades dessa disciplina podem ser de qualquer natureza
-- As atividades poderão ser realizadas em aula ou comprazo determinado. O professor sempre informará antecipadamente
-- Atividades encerradas não serão reabertas (fiquem atentos aos prazos)
-- Atividades em aula contabilizam normalmente na nota
-- A média final do professor é calculada simplesmente pela média de todas as atividades
-- Haverá ao menos uma prova durante o semestre (previamente agendada)
-- Faltas não são contabilizadas pelo professor
 
 ## Ementa basica da disciplina
 
